@@ -28,7 +28,7 @@ namespace HelloWorld
 
         static string DisplayJustDate()
         {
-            return DateTime.Now.ToShortDateString();          
+            return DateTime.Now.ToShortDateString();
         }
     }
 }
