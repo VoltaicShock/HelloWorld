@@ -10,7 +10,14 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World Dev Branch Test.");
+            Console.WriteLine("Hello World Dev Branch Test");
+            Console.WriteLine(DisplayDateTime());
+            Console.ReadLine();
+        }
+
+        static string DisplayDateTime()
+        {
+            return DateTime.UtcNow.ToString();
         }
     }
 }
