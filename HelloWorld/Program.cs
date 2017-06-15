@@ -12,6 +12,7 @@ namespace HelloWorld
         {
             Console.WriteLine("Hello World Dev Branch Test" + getString());
             Console.WriteLine(DisplayDateTime());
+            Console.WriteLine(DisplayJustDate());
             Console.ReadLine();
         }
 
@@ -23,6 +24,11 @@ namespace HelloWorld
         static string DisplayDateTime()
         {
             return DateTime.UtcNow.ToString();
+        }
+
+        static string DisplayJustDate()
+        {
+            return DateTime.Now.ToShortDateString();
         }
     }
 }
