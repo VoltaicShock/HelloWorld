@@ -18,7 +18,7 @@ namespace HelloWorld
 
         private static string getString()
         {
-            return "New string new version";
+            return "New string new version.";
         }
 
         static string DisplayDateTime()
