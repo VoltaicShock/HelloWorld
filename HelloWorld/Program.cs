@@ -16,6 +16,11 @@ namespace HelloWorld
             Console.ReadLine();
         }
 
+        private static string getString()
+        {
+            return "New string";
+        }
+
         static string DisplayDateTime()
         {
             return DateTime.UtcNow.ToString();
