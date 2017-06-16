@@ -18,7 +18,7 @@ namespace HelloWorld
 
         private static string getString()
         {
-            return "Bug branch version 3.";
+            return "Bug branch version 3." ;
         }
 
         static string DisplayDateTime()
