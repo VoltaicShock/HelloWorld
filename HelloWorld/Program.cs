@@ -10,7 +10,7 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World Dev Branch Test" + getString() + ".");
+            Console.WriteLine("Hello World " + getString() + ".");
             Console.WriteLine(DisplayDateTime());
             Console.WriteLine(DisplayJustDate());
             Console.ReadLine();
@@ -18,7 +18,8 @@ namespace HelloWorld
 
         private static string getString()
         {
-            return "Bug branch version 3." ;
+            int versionNum = 7;
+            return "Bug branch version " + versionNum;
         }
 
         static string DisplayDateTime()
