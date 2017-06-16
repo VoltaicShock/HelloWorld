@@ -18,7 +18,7 @@ namespace HelloWorld
 
         private static string getString()
         {
-            int versionNum = 6;
+            int versionNum = 7;
             return "Bug branch version " + versionNum;
         }
 
