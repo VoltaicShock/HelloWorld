@@ -10,7 +10,7 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World " + getString() + ".");
+            Console.WriteLine("Hello World " + getString() + "  .");
             Console.WriteLine(DisplayDateTime());
             Console.WriteLine(DisplayJustDate());
             Console.ReadLine();
