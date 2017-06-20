@@ -1,15 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CsvHelper.Configuration;
+using System;
 
 namespace HelloWorld
 {
     class Program
     {
+        private static CsvConfiguration config;
+
         static void Main(string[] args)
         {
+            config = new CsvConfiguration();
+
+            config.Delimiter = "||";
+            config.HasHeaderRecord = true;
+            config.WillThrowOnMissingField = false;
+            config.IsHeaderCaseSensitive = false;
+            config.TrimFields = false;
+
             Console.WriteLine("Hello World " + getString() + ".");
             Console.WriteLine(DisplayDateTime());
             Console.WriteLine(DisplayJustDate());
