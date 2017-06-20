@@ -16,6 +16,7 @@ namespace HelloWorld
             config.WillThrowOnMissingField = false;
             config.IsHeaderCaseSensitive = false;
             config.TrimFields = false;
+            config.AllowComments = true;
 
             Console.WriteLine("Hello World " + getString() + ".");
             Console.WriteLine(DisplayDateTime());
